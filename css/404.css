@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:700');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #1E6CCE;
+	color: #FFFFFF;
+	font-family: 'Arvo', serif;
+}
+
+.container {
+	/*max-width: 960px;*/
+	height: 100vh;
+	margin: 0 10px;
+	display: table;
+}
+
+.error {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.error__face {
+	font-size: 96px;
+}
+
+.error__message {
+	font-size: 48px;
+	margin-top: 52px;
+}
+
+.error__code {
+	font-size: 18px;
+	margin-top: 52px;
+	color: #DCDCDC;
+}
+
+@media screen and (min-width: 980px) {
+	.container {
+		width: 960px;
+		margin: 0 auto !important;
+	}
+}
